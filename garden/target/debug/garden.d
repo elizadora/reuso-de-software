@@ -1,0 +1,1 @@
+/home/elizadora/Documentos/ufc/RS/projetos/garden/target/debug/garden: /home/elizadora/Documentos/ufc/RS/projetos/garden/src/garden/vegetables.rs /home/elizadora/Documentos/ufc/RS/projetos/garden/src/garden.rs /home/elizadora/Documentos/ufc/RS/projetos/garden/src/main.rs
