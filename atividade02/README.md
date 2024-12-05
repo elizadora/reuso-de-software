@@ -1,8 +1,16 @@
-# Padrões de software
-Os padrões de software, são métodos utilizados para contornar erros comuns de serem encontrados na criação de projetos e também para o desenvolvimento de uma estrutura de fácil implementação e manutenção.
+# Padrões de Projeto
+Os padrões de projeto são soluções para problemas comuns que ocorrem durante o desenvolvimento de um software. Eles são como um guia de boas práticas que ajudam a resolver problemas de forma eficiente e organizada. Agindo de forma a facilitar a manutenção e a evolução do software.
 
-## Problema Fictício
-Um sistema deseja processar pagamentos utilizando meios diferentes como: PayPal, Google Pay e Transferência bancária.
+## Factory Method(Fábrica)
+Esse padrão uiliza uma classe para servir de fábrica para a criação de objetos. A fábrica é uma classe que possui um método que cria e retorna objetos. O método pode ser estático. O método fábrica é utilizado para criar objetos de classes derivadas de uma classe base. Sendo assim, o método fábrica é uma forma de abstração do processo de criação de objetos.
+
+## Problema
+Um sistema deseja processar pagamentos de diferentes formas, como Google Pay, PayPal, PicPay, etc.
 
 ## Solução
-Utilizar o padrão Factory(Fábrica), através dele é criada uma classe responsável pela geração dos objetos das formas de pagamento mediante um parâmetro enviado.
+Utilizar o padrão Factory Method para criar uma fábrica de pagamentos. A fábrica de pagamentos é uma classe que possui um método que cria e retorna objetos de pagamento. Cada classe de pagamento é uma classe derivada de uma classe base(Payment). 
+
+Vantagens:
+- Facilita a manutenção do código.
+- Facilita a adição de novas formas de pagamento.
+- Facilita a evolução do software.
