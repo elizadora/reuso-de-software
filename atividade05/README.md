@@ -15,3 +15,6 @@ Foi realizada uma divisão nos arquivos para uma melhor visualização da aplica
 
 ## Cliente
 O cliente foi feito em Python, utilizando a biblioteca Requests para consumir a API. O cliente apresenta um menu simples, onde o usuário pode escolher entre as opções de listar todos os cursos, buscar um curso específico, adicionar um curso, atualizar um curso e deletar um curso. Para rodar o cliente, basta executar o comando `python client.py`.
+
+# Instalação
+Para instalar as dependências da API, basta executar o comando `npm install` e para o cliente caso já não tenha a biblioteca Requests, rode o seguinte comando `pip install requests`.
