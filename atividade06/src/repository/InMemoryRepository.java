@@ -23,7 +23,8 @@ public class InMemoryRepository<T> implements CrudRepository<T>{
         if(entities.containsKey(id)){
             update(entity);
         }else{
-            entities.put(nextId++, entity);
+            entities.put(nextId, entity);
+            nextId++;
         }
     }
 
